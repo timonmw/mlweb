@@ -1,0 +1,8 @@
+#Eviroment akivieren
+source ./env/bin/active
+
+#Starten
+python3 manage.py runserver
+
+#App hinzufügen
+python manage.py startapp appname
